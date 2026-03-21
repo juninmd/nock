@@ -1,0 +1,19 @@
+[[allowlist]]
+description = "False positive: private-key in tests/ssl/ca.key"
+rules = ["private-key"]
+paths = ["tests/ssl/ca.key"]
+
+[[allowlist]]
+description = "False positive: private-key in tests/ssl/localhost.key"
+rules = ["private-key"]
+paths = ["tests/ssl/localhost.key"]
+
+[[allowlist]]
+description = "False positive: generic-api-key in .coveralls.yml"
+rules = ["generic-api-key"]
+paths = [".coveralls.yml"]
+
+[[allowlist]]
+description = "False positive: generic-api-key in .coveralls.yml"
+rules = ["generic-api-key"]
+paths = [".coveralls.yml"]
